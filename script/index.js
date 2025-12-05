@@ -16,6 +16,7 @@ function initScene() {
 }
 
 function loadRockTexture() {
+  // test
   var textureLoader = new THREE.TextureLoader();
   textureLoader.crossOrigin = true;
   textureLoader.load("./assets/rock-texture.jpg", function (texture) {
